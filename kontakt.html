@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Navngir de forskjellige gridsene*/
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; }
+/* Deler inn grid ommrådene og sier hvor store de skal være*/
+.grid-container {
+  display: grid;
+  grid-template-areas:
+   /* Disse refererer til navnene jeg ga de forskjellige grid ommrådene*/
+    'menu menu menu main main main'
+    'menu menu menu footer footer footer';
+   /* Bestemmer hvor stor grdsene skal være, hvilken farge og hvor stor devideren mellom grdsene skal være*/
+  grid-gap: 10px;
+  background-color: 87A1C0;
+  padding: 10px;
+}
+/* Sier hva bakrunsfargen på grid containerene skal være*/
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* Importerer CSS scriptet*/
+</style>
+<Meta charset = "Utf-8"/>
+<link rel="stylesheet" href="CSS/MinStil_OmMeg.css">
+</head>
+<body>
+
+  
+  
+  <nav>
+    <p>Andreas sin hjemmeside</p>
+    <ul>
+        <li><a href="Index.html">Hjem</a></li>
+        <li><a href="#">Oppgaver</a>
+          <ul>
+            <li><a href="https://youtu.be/oVAyzr4BhYw">Lego mindstorm</a></li>
+            <li><a href="https://youtu.be/4vA39s5vQfc">PHP</a></li>
+          </ul>
+        </li>
+        <li><a href="kontakt.html">Kontakt meg</a></li>
+        <li><a href="om_meg.html">Om meg</a></li>
+        <li><a href="Vurdering.html">Vurdering av nettside</a></li>
+       
+    </ul>
+</nav>
+
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </style>
+    
+  
+   
+   
+    
+    </div>
+  </div>
+  <div class="grid">
+    <div class="title">Kontakt meg</div>
+    <div class="sidebar"> 
+        <p>SC: andreaskidped</p>
+        <p>Discord: Yarrac 2080</p>
+        <p>Email: Andreaskidped@gmail.com</p>
+    </div>
+ 
+    
+    </div>
+    
+</div>
+</body>
+</html>
